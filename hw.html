@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>윤형준 자기소개 페이지</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ddd;
+            padding: 10px;
+            width: 350px;
+            height: 100%;
+            position: fixed;
+            top: 88.44px;
+            left: 0;
+            bottom: 0;
+            padding-bottom: 100px;
+            overflow: auto;
+        }
+
+        main {
+            float: right;
+            width: 1550px;
+            height: 770px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            font-size: 25px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        section li {
+            font-size: 25px;
+        }
+
+        section {
+            display: none;
+            padding: 80px;
+            margin-left: 200px;
+            margin-top: 120px;
+            width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        section p {
+            font-size: 25px;
+        }
+
+        section:target {
+            display: block;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: white;
+            text-align: center; 
+            position: fixed;
+            font-size: 16px;
+            left: 0;
+            bottom: 0; 
+            width: 100%;
+            border-top: 1px solid gray;
+        }
+
+        #college-link, #major-link, #naver {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>자기소개 페이지</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">> 처음으로</a></li><br><br><br>
+            <li><a href="#intro">> 내 소개</a></li>
+            <li><a href="#hobby">>> 내 취미</a></li>
+            <li><a href="#major">>> 내 전공 소개</a></li>
+            <li><a href="#schedule">> 2023학년도 1학기 시간표</a></li>
+            <li><a href="#sns">> 내 SNS</a></li><br><br><br>
+            <li><a href="#links">> 바로가기</a></li>
+            <li><a href="#major-link">>> 학과 홈페이지</a></li>
+            <li><a href="#college-link">>> 학교 홈페이지</a></li>
+            <li><a href="#naver">>> 네이버</a></li><br><br><br>
+            <li><a href="#guestbook">> 방명록</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="intro">
+            <h1>소개</h1>
+            <p>안녕하세요. 저는 강원대학교 건축공학전공 재학중인 윤형준입니다.<br>왼쪽 버튼들을 누르면 각 항목에 대한 제 소개를 보실 수 있습니다!</p>
+        </section>
+        <section id="hobby">
+            <h1>취미</h1>
+            <p>저의 취미는 게임입니다. 저는 주로 리그 오브 레전드라는 게임을 합니다.<br>
+                이 게임은 매 판마다 다양한 전략을 사용할 수 있기에 흥미를 잃지 않고 오랫동안 즐길 수 있습니다.<br>이로 인해 롤은 전 세계적으로 유명한 게임 중 하나로 자리 잡게 되었습니다.<br>또한, 저는 음악을 즐겨 듣습니다. 제일 좋아하는 가수는 찰리 푸스로 That's Hilarious라는 노래를 제일 좋아합니다.</That></p>
+        </section>
+        <section id="major">
+            <h1>전공 소개</h1>
+            <p>저는 현재 건축공학을 전공하고 있습니다. 건축물의 구조와 안전성 및 디자인에 대한 관심으로 건축공학전공에 입학했습니다.<br>건축공학은 건축물을 안전하고 효율적으로 설계하고 건설하는 기술을 연구하는 분야로, 인프라를 만들 때 꼭 필요한 학문입니다.</p>
+        </section>
+        <section id="schedule" style="border: none; padding: 0; margin-left: 200px; width: 1000px;">
+            <h1>22023학년도 1학기 시간표</h1>
+            <table>
+                <tr>
+                    <th>시간</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td rowspan="2" style="background-color: pink;">CAD</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td></td>
+                    <td style="background-color: green;">정역학</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td></td>
+                    <td rowspan="2" style="background-color: skyblue;">웹과인터넷활용과실습</td>
+                    <td rowspan="2" style="background-color: skyblue;">웹과인터넷활용과실습</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td style="background-color: yellow;">일반구조</td>
+                    <td style="background-color: orange;">자연재해와인류의미래</td>
+                    <td rowspan="2" style="background-color: orange;">자연재해와인류의미래</td>
+                    <td rowspan="2" style="background-color: yellow;">일반구조</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td rowspan="3" style="background-color: violet;">공업수학1</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td rowspan="2" style="background-color: green;">정역학</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td style="background-color: burlywood;">문학과영화</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <section id="sns">
+            <h1>SNS</h1>
+            <ul>
+                <li>인스타그램: <a href="https://www.instagram.com/y_hyoungj">@y_hyoungj</a></li>
+            </ul>
+        </section>
+        <section id="links">
+            <h1>바로가기</h1>
+            <ul>
+                <li><a href="https://www.naver.com" target="_blank">네이버</a></li>
+                <li><a href="https://www.google.com" target="_blank">구글</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">유튜브</a></li>
+            </ul>
+        </section>
+        <section id="major-link">
+            <iframe src="https://archi.kangwon.ac.kr/archi/index.do" ></iframe>
+        </section>
+        <section id="college-link">
+            <iframe src="https://wwwk.kangwon.ac.kr/www/index.do" ></iframe>
+        </section>
+        <section id="naver">
+            <iframe src="https://www.naver.com" ></iframe>
+        </section>
+        <section id="guestbook">
+            <h1>방명록 작성하기</h1>
+            <form>
+                <label for="name">작성자 : </label>
+                <input type="text" id="name" name="name"><br>
+                <label for="password">비밀번호 : </label>
+                <input type="password" id="password" name="password"><br>
+                <label for="title">제목 : </label>
+                <input type="text" id="title" name="title"><br>
+                <textarea id="message" name="message" rows="10" cols="50"></textarea><br>
+                <input type="reset" value="다시 입력"> <input type="submit" value="저장 하기">
+            </form>
+        </section>
+        <footer>
+            <p>이 페이지는 <strong><u>윤형준</u></strong>이 직접 만들었습니다.<br>Copyright &copy; 2023 YHJ. All rights reserved.</p>
+        </footer>
+
+</body>
+
+</html>
